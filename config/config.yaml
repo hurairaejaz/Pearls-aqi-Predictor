@@ -1,0 +1,29 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
+
+CITY_NAME = os.getenv("CITY_NAME", "Gujrat")
+COUNTRY_CODE = os.getenv("COUNTRY_CODE", "PK")
+
+LATITUDE = float(os.getenv("LATITUDE", "32.5736"))
+LONGITUDE = float(os.getenv("LONGITUDE", "74.0780"))
+
+FEAST_PROJECT = os.getenv("FEAST_PROJECT", "pearls_aqi")
+
+MLFLOW_TRACKING_URI = os.getenv(
+    "MLFLOW_TRACKING_URI",
+    "./mlruns"
+)
+
+MLFLOW_EXPERIMENT_NAME = os.getenv(
+    "MLFLOW_EXPERIMENT_NAME",
+    "pearls_aqi_prediction"
+)
+
+if not OPENWEATHER_API_KEY:
+    raise ValueError(
+        "OPENWEATHER_API_KEY is missing from .env"
+    )

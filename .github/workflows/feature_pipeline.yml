@@ -1,0 +1,33 @@
+name: Hourly AQI Feature Pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 * * * *"
+
+jobs:
+  feature-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run feature pipeline
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          CITY_NAME: ${{ secrets.CITY_NAME }}
+          COUNTRY_CODE: ${{ secrets.COUNTRY_CODE }}
+          LATITUDE: ${{ secrets.LATITUDE }}
+          LONGITUDE: ${{ secrets.LONGITUDE }}
+          AIR_QUALITY_PROVIDER: open_meteo
+          FEAST_PROJECT: pearls_aqi
+          FEAST_REPO_PATH: feature_repo
+          MLFLOW_TRACKING_URI: sqlite:///mlflow.db
+        run: python pipelines/feature_pipeline.py

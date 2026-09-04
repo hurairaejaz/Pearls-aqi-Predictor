@@ -1,0 +1,26 @@
+# Python 3.11
+numpy<2.1
+pandas>=2.2,<3
+pyarrow>=17,<22
+duckdb>=1.1,<2
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+pyyaml>=6,<7
+
+feast==0.65.0
+mlflow>=3.3,<4
+
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+
+tensorflow>=2.16,<2.21
+shap>=0.46,<1
+
+flask>=3.1,<4
+flask-cors>=6,<7
+gunicorn>=23,<24
+
+streamlit>=1.45,<2
+plotly>=6,<7
+
+pytest>=8,<9

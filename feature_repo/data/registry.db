@@ -1,0 +1,141 @@
+
+a
+A
+city'City used as the AQI prediction entity."cityJ
+pearls_aqi
+¼ÈŞÔ€œÀ§¼ÈŞÔ€œÀ§
+A
+!
+__dummy"
+__dummy_idJ
+pearls_aqi
+¼ÈŞÔ€œÀ§¼ÈŞÔ€œÀ§1"$fd161fb6-4992-4232-9d6a-fa2eed6dd672*—áèÔ íÀÙ2Õ
+
+aqi_features
+pearls_aqicity"
+aqi"
+co"
+no2"
+o3"
+so2"	
+pm2_5"
+pm10"
+temperature"
+humidity"
+pressure"
+
+wind_speed"
+wind_direction"
+
+clouds"
+hour"
+day"
+day_of_week"	
+month"
+week"
+
+is_weekend"
+hour_sin"
+hour_cos"
+	month_sin"
+	month_cos"
+
+aqi_lag_1h"
+
+aqi_lag_3h"
+
+aqi_lag_6h"
+aqi_lag_12h"
+aqi_lag_24h"
+pm25_lag_1h"
+pm25_lag_3h"
+pm25_lag_6h"
+pm25_lag_12h"
+pm25_lag_24h"
+aqi_rolling_3h"
+aqi_rolling_6h"
+aqi_rolling_12h"
+aqi_rolling_24h"
+pm25_rolling_6h"
+pm25_rolling_24h"
+
+aqi_change"
+aqi_percentage_change"
+pm25_change"
+temperature_change"
+humidity_change2€š:“	timestampZdata/aqi_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢aqi_features_source’ÊÁèÔ †£‚"ÊÁèÔ †£‚@b
+city’latestÎ
+¼ÈŞÔ€œÀ§—áèÔ˜Ş»Ø
+ä™ÊÓØ¸“®ä³èÔØ¸“®
+šÊÓÈ®³´èÔÈ®³
+öšÊÓ˜Ç€ö´èÔ˜Ç€
+ø¦ÊÓ ¯ÏSøÀèÔ ¯ÏS
+‰¨ÊÓĞ¦µÊ‰ÂèÔĞ¦µÊ
+—ÇÊÓÀ½ÆJ—áèÔÀ½ÆJ0R‡
+„
+,feast.infra.online_stores.sqlite.SqliteTable"T
+9E:\pearls-aqi-predictor\feature_repo\data\online_store.dbpearls_aqi_aqi_featuresb 	timestampZdata/aqi_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢aqi_features_sourceª
+pearls_aqi’¼ÈŞÔ¸êÏ‘"¼ÈŞÔ€œÀ§Š,
+
+
+pearls_aqi
+¼ÈŞÔèÎ˜¼ÈŞÔèÎ˜’„
+
+aqi_features
+pearls_aqi"feature_view*¢
+
+aqi_features
+pearls_aqicity"
+aqi"
+co"
+no2"
+o3"
+so2"	
+pm2_5"
+pm10"
+temperature"
+humidity"
+pressure"
+
+wind_speed"
+wind_direction"
+
+clouds"
+hour"
+day"
+day_of_week"	
+month"
+week"
+
+is_weekend"
+hour_sin"
+hour_cos"
+	month_sin"
+	month_cos"
+
+aqi_lag_1h"
+
+aqi_lag_3h"
+
+aqi_lag_6h"
+aqi_lag_12h"
+aqi_lag_24h"
+pm25_lag_1h"
+pm25_lag_3h"
+pm25_lag_6h"
+pm25_lag_12h"
+pm25_lag_24h"
+aqi_rolling_3h"
+aqi_rolling_6h"
+aqi_rolling_12h"
+aqi_rolling_24h"
+pm25_rolling_6h"
+pm25_rolling_24h"
+
+aqi_change"
+aqi_percentage_change"
+pm25_change"
+temperature_change"
+humidity_change2€š:“	timestampZdata/aqi_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢aqi_features_source’¼ÈŞÔ¸êÏ‘"¼ÈŞÔ€œÀ§@b
+city’latest
+¼ÈŞÔ€œÀ§¼ÈŞÔ€œÀ§2¼ÈŞÔÀ¥¯B$9d706032-c79a-4eca-873e-241442028fa3
